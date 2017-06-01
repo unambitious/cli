@@ -1,0 +1,31 @@
+{
+  "name": "unambitious-cli",
+  "version": "1.0.0",
+  "description": "A CLI to create unambitious Custom Elements",
+  "main": "index.js",
+  "bin": {
+    "unambitious": "./index.js"
+  },
+  "scripts": {
+    "test": "eslint index.js lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unambitious/cli.git"
+  },
+  "author": "Lucas Dohmen <lucas@dohmen.io> (https://lucas.dohmen.io)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/unambitious/cli/issues"
+  },
+  "homepage": "https://github.com/unambitious/cli#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {}
+}
