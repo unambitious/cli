@@ -15,9 +15,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-let BridgeTroll = require('./lib/bridge_troll')
+let BridgeTroll = require('./lib/bridge-troll')
 let bridgeTroll = new BridgeTroll()
-let NpmInit = require('./lib/npm_init')
+let NpmInit = require('./lib/npm-init')
 let npmInit = new NpmInit()
 
 bridgeTroll.say('So you want to start an unambitious project')
